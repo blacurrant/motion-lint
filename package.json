@@ -4,7 +4,7 @@
   "description": "High-performance motion linter & compositor contract auditor for React, Vue, Svelte, and CSS. Enforce 120 FPS fluid interfaces and ban animation jank.",
   "main": "src/index.js",
   "bin": {
-    "motion-lint": "./bin/motion-lint.js"
+    "motion-lint": "bin/motion-lint.js"
   },
   "scripts": {
     "test": "node tests/run-tests.js",
@@ -27,7 +27,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/blacurrant/motion-lint"
+    "url": "git+https://github.com/blacurrant/motion-lint.git"
   },
   "funding": [
     {
