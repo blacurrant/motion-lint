@@ -1,0 +1,19 @@
+/* Violates ML002: transition: all */
+.modal-overlay {
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+/* Violates ML001: transition: top and height (layout thrashing) */
+.drawer {
+  position: fixed;
+  top: 100%;
+  height: 400px;
+  transition: top 350ms linear;
+}
+
+.drawer[data-open="true"] {
+  top: 0;
+}
+
+/* Missing prefers-reduced-motion at root (Violates ML005) */

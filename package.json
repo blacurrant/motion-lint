@@ -1,0 +1,45 @@
+{
+  "name": "motion-lint",
+  "version": "1.0.0",
+  "description": "High-performance motion linter & compositor contract auditor for React, Vue, Svelte, and CSS. Enforce 120 FPS fluid interfaces and ban animation jank.",
+  "main": "src/index.js",
+  "bin": {
+    "motion-lint": "./bin/motion-lint.js"
+  },
+  "scripts": {
+    "test": "node tests/run-tests.js",
+    "lint": "node bin/motion-lint.js tests/fixtures"
+  },
+  "keywords": [
+    "motion",
+    "animation",
+    "performance",
+    "compositor",
+    "react",
+    "framer-motion",
+    "linter",
+    "design-engineering",
+    "css",
+    "fps",
+    "web-vitals"
+  ],
+  "author": "Nishant Choudhary <https://nishant.world>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blacurrant/motion-lint"
+  },
+  "funding": [
+    {
+      "type": "solana",
+      "url": "solana:F9DJTXa6xP7mdG1niMNDhqcM3vDq8LZvg25JqJXGvDTf"
+    },
+    {
+      "type": "portfolio",
+      "url": "https://nishant.world"
+    }
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
