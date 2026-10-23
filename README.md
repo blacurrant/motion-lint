@@ -27,7 +27,7 @@ Read the engineering thesis: [**Why Your React Animations Feel Cheap (And How to
 Run instantly with zero installation:
 
 ```bash
-npx motion-lint src/
+npx @blacurrant/motion-lint src/
 ```
 
 Or install as a dev dependency in your project:
@@ -114,7 +114,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npx motion-lint src/ --format=json
+      - run: npx @blacurrant/motion-lint src/ --format=json
 ```
 
 ---

@@ -1,5 +1,5 @@
 {
-  "name": "motion-lint",
+  "name": "@blacurrant/motion-lint",
   "version": "1.0.0",
   "description": "High-performance motion linter & compositor contract auditor for React, Vue, Svelte, and CSS. Enforce 120 FPS fluid interfaces and ban animation jank.",
   "main": "src/index.js",
